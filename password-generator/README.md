@@ -1,1 +1,3 @@
-Solo Project (PRO) - Password Generator for https://scrimba.com/learn/learnjavascript/solo-project-pro-password-generator-cR9B46Sg
+Solo Project (PRO) - Password Generator
+
+<a href="https://passwordgeneratorscrimba.netlify.app/">Live demo</a>

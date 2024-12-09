@@ -1,1 +1,3 @@
-Solo Project - Unit Converter for https://scrimba.com/scrim/c2g86PSZ
+Solo Project - Unit Converter
+
+<a href="https://scrimbaunitconverter.netlify.app/">Live demo</a>
