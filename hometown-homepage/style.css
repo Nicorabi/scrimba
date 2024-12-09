@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    color: #1D3557;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background: #101010;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/dan-freeman.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 450px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-size: 20px;
+}
+
+#section-1 {
+    background: #F1FAEE;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+#section-2 {
+    background: #A8DADC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    margin: 40px auto;
+    border-bottom: 6px solid #1D3557;
+}
+
+#section-2-container {
+    display: flex;
+    background: white;
+    height: 450px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#header-3 {
+    font-size: 30px;
+}
+
+#header-3-div {
+    background: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    background: #457B9D;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+
+h2 {
+    background: #1D3557;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+.paragraph {
+    width: 200px;
+    margin: 20px auto;
+}
+
+p {
+    font-style: italic;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    #container {
+        height: auto;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px; 
+    }
+    
+    img {
+	width: 50%;
+        height: auto;
+    }
+    
+    .paragraph {
+        width: 100%; 
+    }
+
+    p {
+        font-style: normal; 
+    }
+}

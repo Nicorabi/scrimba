@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+}
+
+img {
+  width: 300px;
+}
+
+img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.checked {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paragraph-1 {
+  color: gray;
+}
+
+.paragraph-1:active {
+  color: gray;
+}
+
+.paragraph-2 {
+  margin-top: -10px;
+}
+
+.link-1 {
+  color: gray;
+}
+
+.link-1:active {
+  color: gray;
+}
+
+.link-2 {
+  color: #007185;
+}
+
+.link-2 :active {
+  color: #007185;
+}
+
+.link-3 {
+  color: black;
+}
+
+.link-3:active {
+  color: black;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 40px;
+}

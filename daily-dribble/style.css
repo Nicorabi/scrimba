@@ -1,0 +1,53 @@
+.container {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+img {
+  width: 400px;
+  border: solid 4px black;
+}
+
+.header {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: auto;
+  border: solid black 2px;
+  margin-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 140px;
+  border-radius: 4px;
+  outline: none;
+}
+
+button {
+  text-align: center;
+  background: black;
+  color: white;
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 12px 60px;
+}
+
+button:active {
+  background: grey;
+  color: black;
+}
+
+.paragraph-2 {
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center; 
+}
